@@ -13,7 +13,7 @@ function setAttributes(element, attributes) {
 
 async function fetchPhotos() {
     const data = await fetch(
-      `https://api.pexels.com/v1/search?query=illustration&&page=${page_num}`,
+      `https://api.pexels.com/v1/curated?page=${page_num}`,
       {
         method: "GET",
         headers: {
