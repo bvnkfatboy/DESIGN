@@ -42,6 +42,7 @@ body::-webkit-scrollbar-thumb
 }
 
 
+
 #photos {
     /* Prevent vertical gaps */
     line-height: 0;
@@ -52,6 +53,7 @@ body::-webkit-scrollbar-thumb
     -moz-column-gap:      0px;
     column-count:         4;
     column-gap:           0px;  
+  
   }
   
   #photos img {
@@ -60,9 +62,14 @@ body::-webkit-scrollbar-thumb
     padding: 10px;
     width: 100% !important;
     height: auto !important;
+    
   }
 
 
+
+  .image-container img{
+    border-radius: 20px !important;
+  }
 
   @media (max-width: 1200px) {
     #photos {
